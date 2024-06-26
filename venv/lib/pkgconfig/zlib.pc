@@ -1,0 +1,13 @@
+prefix=/Users/pratikpatel/Documents/MachineLearning/MachineLearning/venv
+exec_prefix=/Users/pratikpatel/Documents/MachineLearning/MachineLearning/venv
+libdir=/Users/pratikpatel/Documents/MachineLearning/MachineLearning/venv/lib
+sharedlibdir=/Users/pratikpatel/Documents/MachineLearning/MachineLearning/venv/lib
+includedir=/Users/pratikpatel/Documents/MachineLearning/MachineLearning/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
